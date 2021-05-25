@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Maksim Lobes](https://up.htmlacademy.ru/htmlcss/31/user/1742487).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/serj).
 
 ---
 
