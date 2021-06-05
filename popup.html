@@ -7,17 +7,17 @@
   <body>
 <header>
   <nav>
-      <ul>
+    
+    <ul>
       <li><a href="blank.html">Информация</a></li>
       <li><a href="blank.html">Фото и видео</a></li>
       <li><a href="blank.html">Карта штата</a></li>
       <li><a href="blank.html">Гостиницы</a></li>
     </ul>
   </nav>
-  <a>
+  <a href="index.html">
     <img src="https://via.placeholder.com/150x100" alt="Логотип Седона">
     </a>
-</header>
 <main>
   <h1>Сервис поиска жилья</h1>
   <section>
@@ -91,14 +91,27 @@
   <p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН<br>
   И ТОЛПИТСЯ ТАМ</p>
 </section>
-
+</header>
 <section>
   <h4>ЗАИНТЕРЕСОВАЛИСЬ?</h4>
   <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>
   И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
-  <a href="popup.html">
   <h4>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h4>
-  </a>
+  <form action="https://echo.htmlacademy.ru" method="post">
+    <p><label for="in-date">ДАТА ЗАЕЗДА</label>
+    <input id="in-date" type="text" name="data in" placeholder="24 апреля 2017">
+    </p>
+    <p><label for="out-date">ДАТА ВЫЕЗДА</label>
+        <input id="out-date" type="text" name="data out" placeholder="4 июля 2017">
+        </p>
+        <p><label for="adults">ВЗРОСЛЫЕ</label>
+            <input id="adults" type="text" name="adults" placeholder="2">
+            
+            <label for="children">ДЕТИ</label>
+                <input id="children" type="text" name="children" placeholder="1">
+                </p>
+<button type="submit">НАЙТИ</button>
+</form>
 </section>
 <section>
 <img src="https://via.placeholder.com/1199x594" alt="КАРТА">    
@@ -125,10 +138,10 @@
 </section>
 <section>
   <p>WEBSITE BY
-  <a href="https://htmlacademy.ru/intensive/htmlcss">
-  <img src="https://via.placeholder.com/150x60" alt="Логотип Седона">
-  </a>
-</p>
+    <a href="https://htmlacademy.ru/intensive/htmlcss">
+        <img src="https://via.placeholder.com/150x60" alt="Логотип Седона">
+        </a>
+      </p>
 </section>
 </footer>
     
