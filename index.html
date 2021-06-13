@@ -7,18 +7,18 @@
   <body>
     <header>
       <nav>
-        <a><img src="https://via.placeholder.com/150x100" alt="Логотип Седона"></a>
+        <a href="index.html"><img src="img/logo.svg" width="138" height="70 alt="Логотип Седона"></a>
         <ul>
           <li><a href="blank.html">Информация</a></li>
           <li><a href="blank.html">Фото и видео</a></li>
           <li><a href="blank.html">Карта штата</a></li>
-          <li><a href="catalog.html">Гостиницы</a></li>
+          <li><a href="blank.html">Гостиницы</a></li>
         </ul>
      </nav>
     </header>
     <main>
       <section>
-        <a><img src="https://via.placeholder.com/850x300" alt="Картинка welcom sedona"></a>
+        <a><img src="img/background.jpg" width="1200" height="510 alt="Картинка welcom sedona"></a>
       </section>
       <section>
         <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
@@ -26,29 +26,29 @@
       </section>
       <section>
         <h2>Настоящий городок</h2>
-          <p>-№1-</p>
-          <p>Седона — не аттракцион для туристов, там<br>течёт своя жизнь</p>
-          <img src="https://via.placeholder.com/800x256" alt="Приемущество номер 1">
-          <ol>
-            <li>
-              <h3><strong>Жильё</strong></h3>
-              <p>Рекомендуем пожить в настоящем<br>мотеле, всё как в кино!</p>
-            </li>
-            <li>
-              <h3><strong>Еда</strong></h3>
-                <p>Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
-            </li>
-            <li>
-              <h3><strong>Сувениры</strong></h3>
-                <p>Не только китайского, но и местного<br>производства !</p>
-            </li>
-          </ol>
+        <p>-№1-</p>
+        <p>Седона — не аттракцион для туристов, там<br>течёт своя жизнь</p>
+        <img src="https://via.placeholder.com/800x256" alt="Приемущество номер 1">
+        <ol>
+          <li>
+            <h3><strong>Жильё</strong></h3>
+            <p>Рекомендуем пожить в настоящем<br>мотеле, всё как в кино!</p>
+          </li>
+          <li>
+            <h3><strong>Еда</strong></h3>
+            <p>Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
+          </li>
+          <li>
+            <h3><strong>Сувениры</strong></h3>
+            <p>Не только китайского, но и местного<br>производства !</p>
+          </li>
+        </ol>
       </section>
       <section>
         <h2>Там есть<br>Мост дьявола</h2>
-          <p>-№2-</p>
-          <p>Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
-          <img src="https://via.placeholder.com/800x256" alt="Приемущество номер 2">
+        <p>-№2-</p>
+        <p>Да, по нему можно пройти! Если конечно<br>вы осмелитесь</p>
+        <img src="https://via.placeholder.com/800x256" alt="Приемущество номер 2">
       </section>
       <section>
         <ol>
@@ -71,39 +71,44 @@
       </section>
       <section>
         <h3>Заинтересовались?</h3>
-          <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне
+        <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <p>
+          <button type="button">Поиск гостиницы в Седоне</button>
+        </p>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label for="in-date">Дата заезда</label>
+            <input id="in-date" type="date" name="datain">
+            <button type="button">Ок</button>
           </p>
-          <p><button type="button">Поиск гостиницы в Седоне</button></p>
-          <form action="https://echo.htmlacademy.ru" method="post">
-            <p><label for="in-date">Дата заезда</label>
-               <input id="in-date" type="date" name="data in"><button type="button">Ок</button>
-            </p>
-            <p><label for="out-date">Дата выезда</label>
-               <input id="out-date" type="date" name="data out"><button type="button">Ок</button>
-            </p>
-            <p>
-              <label for="adults">Взрослые</label>
-              <button type="button">Ок</button>
-              <input type="number" placeholder="2">
-              <button type="button">Ок</button>
-            </p>
-            <p>
-              <label for="adults">Дети</label>
-              <button type="button">Ок</button>
-              <input type="number" placeholder="0">
-              <button type="button">Ок</button>
-            </p>
-            <p><button>Найти</button></p>
-          </form>
+          <p>
+            <label for="out-date">Дата выезда</label>
+            <input id="out-date" type="date" name="dataout">
+            <button type="button">Ок</button>
+          </p>
+          <p>
+            <label for="adults">Взрослые</label>
+            <button type="button">Ок</button>
+            <input id="adults" type="number" name="adult" placeholder="2">
+            <button type="button">Ок</button>
+          </p>
+          <p>
+            <label for="children">Дети</label>
+            <button type="button">Ок</button>
+            <input id="children" type="number" name="child" placeholder="0">
+            <button type="button">Ок</button>
+          </p>
+          <p><button>Найти</button></p>
+        </form>
         <img src="https://via.placeholder.com/550x250" alt="Карта Седона">    
       </section>
     </main>
     <footer>
       <h2>Как нас найти</h2>
-        <p>
-          <a href="blank.html">#VISITSEDONA</a><br>
-          <a href="tel:+78005558628">+7 800 555-86-28</a>
-        </p>
+      <p>
+        <a href="blank.html">#Visitsedona</a><br>
+        <a href="tel:+78005558628">+7 800 555-86-28</a>
+      </p>
       <section>
         <ul>
           <li>
@@ -118,10 +123,11 @@
         </ul>
       </section>
       <section>
-        <p>WEBSITE BY
+        <p>Website by
           <a href="https://htmlacademy.ru/intensive/htmlcss">
-          <img src="https://via.placeholder.com/150x60" alt="Логотип Академии">
+            <img src="https://via.placeholder.com/150x60" alt="Логотип Академии">
           </a>
+        </p>
       </section>
     </footer>
   </body>
